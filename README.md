@@ -1,10 +1,7 @@
 # Renton Technical College CSI-248
 <br />    
 
-<div align="center">  
-    <img src="logo.jpg" alt="Logo">
-    <h3 align="center">Guided Activity 5</h3>
-</div>
+![alt text](images/logo.jpg)
 
 This repository is a part of CSI-248 at Renton Technical College.
 
@@ -38,36 +35,36 @@ This repository is a part of CSI-248 at Renton Technical College.
 
 1. Replace App.js with the following:
 
-![image](https://github.com/EmeryCSI/csi248-guidedactivity5/assets/102991550/ef7bb326-ee5e-48c1-ba25-59e016f017c2)
+![alt text](images/1.png)
 
 2. The button component works for quick projects but it is very limited in what can be done with it. For example the background color can be change but not the text color.
 3. Button has a nice effect when it is clicked on however that effect cannot be customized.
 4. Make the following changes to App.js
 
-![image](https://github.com/EmeryCSI/csi248-guidedactivity5/assets/102991550/38627306-4b68-45c2-af23-f3326f7e00f6)
+![alt text](images/2.png)
 
 5. TouchableOpacity offers the effect when a button is clicked as well as the ability to change both background color and the text color. Notice that the text inside of the button is its own component. There is no title prop used.
 
 6. Change the TouchableOpacity component to a Pressable.
 
-![image](https://github.com/EmeryCSI/csi248-guidedactivity5/assets/102991550/15855f52-ce5c-4766-98f1-ce4442ed5101)
+![alt text](images/3.png)
 
 7. Now noticed when you click on the buttons there is no effect to show that is has been clicked on. It is possible to create this effect with Pressable, however we much create it ourselves.
 
 8. Notice what happens if you add an opacity to the btn style:
 
-![image](https://github.com/EmeryCSI/csi248-guidedactivity5/assets/102991550/3cd35233-5cec-4ed0-b5ff-d04654710ae2)
+![alt text](images/4.png)
 
 10. The buttons will appear faded. We can make this happen on press by supplying a callback function to the style prop.
 11. Delete the `opacity: 0.5` from the btn style.
 12. The style prop of the pressable is now supplying a callback function, that callback function is taking in a parameter called pressed.
 13. pressed will be true when the button is pressed or false otherwise.
 
-![image](https://github.com/EmeryCSI/csi248-guidedactivity5/assets/102991550/f3c48249-f1ad-48c0-975d-edd36110ff82)
+![alt text](images/5.png)
 
 14. Using this pressed parameter we can supply an array of styles to the style prop:
 
-![image](https://github.com/EmeryCSI/csi248-guidedactivity5/assets/102991550/401b41f2-ac4e-4a47-af9d-7cefe80c3e69)
+![alt text](images/6.png)
 
 15. Notice now when you click the button you will see the opacity and background change
 16. Pressable has multiple press events that you can use.
@@ -80,7 +77,7 @@ onPressOut
 
 17. Lets add a press and a longPress event:
 
-![image](https://github.com/EmeryCSI/csi248-guidedactivity5/assets/102991550/efc5a2f4-c865-484a-8cb1-8784025e021b)
+![alt text](images/7.png)
 
 18. Click your pressable and take a screenshot of the output
 19. Click and hold on your pressable and take a screenshot of the output.
@@ -99,12 +96,12 @@ onPressOut
   pressedOpacity = 0.5 //default opacity when pressed
 6. You can chose whatever colors you like for the different types of buttons. Here is an example
 
-![image](https://github.com/EmeryCSI/csi248-guidedactivity5/assets/102991550/474e9551-f77e-4f9e-b0cf-7ad82c9f0775)
+![alt text](images/8.png)
 
 7. Once complete render the custom buttons in App.js and take a screenshot.
 8. Notice how much easier it is to use these buttons than the Pressable element we made earlier.
 
-![image](https://github.com/EmeryCSI/csi248-guidedactivity5/assets/102991550/e6fdd0ce-deee-4ad9-a601-49f6372aabb4)
+![alt text](images/9.png)
 
 9 Since you made the component yourself you have full control over its appearance, however you also have the ease of use of the built-in Button component.
 
