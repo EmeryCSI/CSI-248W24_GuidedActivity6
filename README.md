@@ -21,7 +21,7 @@ This repository is a part of CSI-248 at Renton Technical College.
 4. Open the repository in Visual Studio Code by typing `code .`
 5. Create a folder to store the requested Screenshots for this assignment.
 
-## Creating your first react-native project
+## Creating a react-native project
 1. Open the terminal in Visual Studio Code and create a new expo app by running `npx create-expo-app custom-button`
 2. Run `cd custom-button`
 3. You are now in the root project of the folder. Notice that there are some files that look familiar such as package.json and App.js
